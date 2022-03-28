@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(206, 32, 162);
+}
+
+h1 span {
+    font-family: fantasy;
+    font-style: italic;
+    color: black;
+}
+
+h2 {
+    color: rgb(19, 180, 54);
+    font-size: 1rem;
+}
