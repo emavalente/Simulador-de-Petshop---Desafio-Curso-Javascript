@@ -95,10 +95,8 @@ if (iniciar) {
     console.log(nuevoUsuario.mascotas);
     if (nuevoUsuario.mascotas.length !== 0) {
         let tusMascotas = [];
-        indice = 0;
         for (const mascota of nuevoUsuario.mascotas) {
-            tusMascotas.push(nuevoUsuario.mascotas[indice].nombre);
-            indice += 1;
+            tusMascotas.push(mascota.nombre);
         }
         alert('Tus Nuevas Mascotas estan felices! Gracias por Adoptar a:\n' + tusMascotas.join(', '));
         console.log(tusMascotas);
